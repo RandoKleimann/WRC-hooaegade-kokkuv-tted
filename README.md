@@ -1,1 +1,11 @@
 # WRC-hooaegade-kokkuv-tted
+Rando Kleimann, Raiko Randlahe, Kaarel Kivisaar
+Probleem: Tänapäeval on erinevate aastate ja etappide tulemused arhiivides ning neid peab vaatama mitmelt erinevalt veebilehelt ning kohati võib neid olla raske leida. Meie soovime teha ühe lehe, kus oleks kõik lihtsasti kättesaadavad ning kohe ette kuvatavad.
+Ideeks on teha viimase 10 WRC hooaja etappide tulemuste jälgimise süsteem.
+Lehe avanedes saad valida hooaja, seejärel saad valida, kas soovid vaadata etappide ja katsete tulemusi või sõitjate tulemusi erinevatel etappidel ja katsetel.
+Lisaks saab vaadata ka sõitjate ja tiimide hooaja kokkuvõtvat tabelit.
+
+Rollid:
+Rando- Erinevate etappide ja tabelite otsimine, programmeerimine
+Raiko- Programmeerimine
+Kaarel- Programmeerimine
