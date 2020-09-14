@@ -9,3 +9,5 @@ Rollid:
 Rando- Erinevate etappide ja tabelite otsimine, programmeerimine
 Raiko- Programmeerimine
 Kaarel- Programmeerimine
+
+Trello tahvel: https://trello.com/b/VZihclfq/kanban-template
