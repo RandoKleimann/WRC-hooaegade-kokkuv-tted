@@ -11,3 +11,5 @@ Raiko- Programmeerimine
 Kaarel- Programmeerimine
 
 Trello tahvel: https://trello.com/b/VZihclfq/kanban-template
+
+Google drive: https://drive.google.com/drive/folders/180Nl1nEVB8yl0QBs8aVe40iCNscnEglB (Paberprototüüp ja testlugu)
