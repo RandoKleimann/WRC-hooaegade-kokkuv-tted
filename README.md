@@ -15,6 +15,6 @@ Trello tahvel: https://trello.com/b/VZihclfq/kanban-template
 Google drive: https://drive.google.com/drive/folders/180Nl1nEVB8yl0QBs8aVe40iCNscnEglB (Paberprototüüp ja testlugu)
 
 1) Programmi töötamiseks on vaja Thonnys laadida alla bs4 ja requests pluginad.
-2) Tuleb avada programm "Andmed" ning see käivitada
+2) Tuleb avada programm "Andmed (webscrape)" ning see käivitada
 3) Tuleb avada programm "WRC hooaegade kokkuvõtted" ning see käivitada
 4) Seejärel avaneb kasutajaliides.
