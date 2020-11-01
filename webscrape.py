@@ -48,23 +48,3 @@ def rallyResults(rally, season):
             pass
     
     return rally_standings
-
-
-def driverList(season):
-    global url
-    seasonUrl = (url + ("/season/{0}/").format(season))
-    driver_list = []
-
-    page = requests.get(seasonUrl)
-    bs = BeautifulSoup(page.content, 'html.parser')
-    table = bs.find("table", class_ = "points table_h")
-
-    for row in table.findAll("tr", {"class":['table_sude', 'table_liche']}):
-        driver_list.append(row.find('a').contents[0])
-    
-    return sorted(driver_list)
-
-def driverResults(season, driverName):
-    pass
-
-# rallyResults("88. Rallye Automobile de Monte-Carlo 2020", 2020)

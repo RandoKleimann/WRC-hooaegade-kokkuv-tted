@@ -1,7 +1,7 @@
 import tkinter as tk
 from tkinter.ttk import Progressbar, Treeview, Scrollbar
 import time
-from webscrape import rallyList, driverList, rallyResults
+from webscrape import rallyList, rallyResults
 import threading
 
 ui = tk.Tk()
@@ -56,36 +56,6 @@ def hooaeg():
 
     edasi_button = tk.Button(ui, text="Edasi", command=edasi)
     edasi_button.pack()
-
-# def soitja():
-#     progressbar = Progressbar(ui, mode='indeterminate')
-#     progressbar.pack()
-#     global etapp_
-# 
-#     etapp_ = tk.StringVar(ui)
-# 
-#     soitja_button.destroy()
-#     etapp_button.destroy()
-# 
-#     def getDrivers():        
-#         valikud = driverList(temp_list[0])
-#         w_etapp = tk.OptionMenu(ui, etapp_, *valikud)
-#         w_etapp.pack()
-#         hooaeg_label.configure(text="Vali sõitja:")
-#         progressbar.destroy()
-# 
-#         edasi_button = tk.Button(ui, text="Edasi", command=driverResults)
-#         edasi_button.pack()
-# 
-#     def driverResults(default = etapp_):
-#         print(etapp_.get())
-#         pass
-# 
-#     thread = threading.Thread(target=getDrivers)
-#     progressbar.start()
-#     thread.start()
-#     hooaeg_label.configure(text="Laen andmeid")
-#     pass
 
 def etapp():
     global etapp_
